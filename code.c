@@ -152,10 +152,10 @@ int main()
             pro = atoi(probability);
             pro++;
 
-	    if (pro == 100)
-                pro = 99;
-            else if (pro == 9)
-                pro = 10;
+	    if (pro == 71)
+                pro = 70;
+
+
 
             buf = itoa(pro, probability, 10);
             lseek(fd, -2, SEEK_CUR);
@@ -179,10 +179,10 @@ int main()
             pro = atoi(probability);
             pro--;
 
-            if (pro == 100)
-                pro = 99;
-            else if (pro == 9)
-                pro = 10;
+            if (pro == 29)
+                pro = 30;
+ 
+         
 
             buf = itoa(pro, probability, 10);
             lseek(fd, -2, SEEK_CUR);
